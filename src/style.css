@@ -1,0 +1,80 @@
+
+.Navbar{
+
+  color:white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 2%;
+  align-items: center;
+}
+.list{
+    display: flex;
+    gap: 19px;
+    /* gap: 19px;
+    color: azure;
+    align-items: center;
+    flex-direction: row; */ }
+.listItems:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color:gray;
+    cursor: pointer;
+    
+}
+.searchbar{
+    margin-left: 20%;
+    margin-top: 2%;
+   
+
+}
+.searchbar,input{
+    height: 30px;
+    width: 80%;
+    border-radius: 20px; ;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    justify-content: center;
+    height: 5%;
+}
+.productsDetail{
+    height: 30%;
+    width: 40%;
+    
+    border: 2px black solid;
+    text-align: center;
+}
+.productsDetail:hover{
+    background-color: bisque;
+    cursor: pointer;
+    
+}
+.productImage{
+    height: 25%;
+    width:100%;
+    
+}
+/* about */
+.aboutText{
+    text-align: center;
+}
+.about{
+    margin-top: 2%;
+    text-align: center;
+}
+
+/* function footer */
+.footerBack{
+    background-color: black;
+}
+.contact{
+    margin-top: 1%;
+    text-align: center;
+    color: aliceblue;
+    padding: 1%;
+    gap:3px
+}
